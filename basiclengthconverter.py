@@ -32,9 +32,8 @@ if uf == unitslength[3]:
     mm = num
 
 #Display the conversion results
-print('''Results:
-''' + str(num) + ' ' + str(uf) + '''
-- ''' + str(m) + ' ' + str(uf) + '''
-- ''' + str(dm) + ' ' + str(uf) + '''
-- ''' + str(cm) + ' ' + str(uf) + '''
-- ''' + str(mm) + ' ' + str(uf))
+print('''Results:''' + ' ' + str(num) + ' ' + str(uf) + '''
+- ''' + str(m) + ' ' + 'm' + '''
+- ''' + str(dm) + ' ' + 'dm' + '''
+- ''' + str(cm) + ' ' + 'cm' + '''
+- ''' + str(mm) + ' ' + 'mm' )
